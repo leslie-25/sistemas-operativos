@@ -1,0 +1,138 @@
+*{
+	padding:3;
+	margin:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	font-family: Helvetica,
+          SunSans-Regular, sans-serif ;
+}
+
+body{
+	background-image: url(fondo.jpg);
+
+
+}
+
+nav {
+	
+	margin: 0;
+	background:#935116;
+	margin-bottom:10px;
+
+}
+	 ul{
+
+		list-style:none;
+		overflow:hidden;
+
+	}
+
+		 ul li{
+			float:left;
+
+		}
+			 ul li a{
+				display:block;
+				padding:25px;
+				color:#F5FFFA;
+				text-decoration: none;
+
+			}
+
+			 li a:hover {
+				background: #F2D8C6;
+				color: #17202A;
+			}
+
+h1{
+	font-family: "Homer Simpson UI";
+	background-image: url(titulo.jpg);
+	text-align: center;
+	color: #F5FFFA;
+	margin: 0px;
+
+}
+
+h3{
+	color: #A04000;
+	font-family: lato;
+}
+
+article {
+ float: left;
+ width: 100%;
+ padding: 1em;
+
+}
+
+
+.courses img{
+	width:80%;
+	 height:40%;
+	 object-fit: cover;
+
+}
+figure {
+  float: left;
+  width: 50%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0 ;
+  border: medium #61412a  solid;
+  margin: 0.5em;
+  padding: 0.5em;
+   min-width: 150px;
+}
+
+article h1, h2, h3, p, figcaption {
+ font-family: Helvetica, Arial;
+}
+article h1, h2, h3 {
+ font-weight: bold;
+ margin-bottom: 0.5em;
+}
+article p {  font-size: 90%; }
+
+footer {
+   
+    margin-top: 1em;
+    padding: 1em;
+    position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #935116;
+	color: white;
+}
+
+.courses{
+	float: left;
+	width: 70%;
+	margin-bottom: 100;
+}
+aside{
+width: 30%;
+float: right;
+
+}
+aside section {	
+	border: medium #61412a solid;
+  	padding: 0.5em;
+   	min-width: 150px;
+   background-color: rgba( 194, 98, 46, .2);
+}
+
+aside h2{
+	color: #A04000;
+	font-family: lato;
+}
+
+aside a{
+	color: #6E2C00;
+	font-family: lato;
+	text-decoration: none;
+	line-height: 1.8;
+	margin-right: 100%; 
+}
